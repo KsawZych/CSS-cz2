@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h2>5 sposobów na podłączenie styli do strony:</h2>
+
+        <ol>
+
+        <li><p style="font-size: large;"><u>Zewnętrzny</u></p></li><br>
+
+        <textarea name="Zad4_1" id="1" cols="73" rows="4">
+        <head>
+            <link rel="Stylesheet" type="text/css" href="style.css" />
+        </head>
+        </textarea>
+
+        <li><p style="font-size: large;"><u>Lokalny / Liniowy</u></p></li><br>
+
+        <textarea name="Zad4_2" id="1" cols="80" rows="2">
+        <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+        </textarea>
+
+        <li><p style="font-size: large;"><u>Wewnętrzny</u></li><br>
+        
+        <textarea name="Zad4_2" id="1" cols="80" rows="7">
+        <head>
+            <style type="text/css">
+            selektor1 { cecha: wartość; cecha2: wartość2... }
+            selektor2 { cecha: wartość; cecha2: wartość2... }
+            </style>
+            </head>
+        </textarea>
+
+        <li><p style="font-size: large;"><u>Alternatywny</u></p></li><br>
+
+        <textarea name="Zad4_3" id="1" cols="100" rows="6">
+        <head>
+            <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+            <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+            <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+        </head>
+        </textarea>
+
+        <li><p style="font-size: large;"><u>Importowany</u></p></li><br>
+
+        <textarea name="Zad4_2" id="1" cols="80" rows="2">
+        <style type="text/css">
+            @import url(adres zewnętrznego arkusza stylów);
+        </style>
+        </textarea>
+        </ol>
+    </body>
+
+</html>
